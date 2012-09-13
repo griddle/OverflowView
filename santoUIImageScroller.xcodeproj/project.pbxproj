@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC9AF9DF16027C6C004C7EA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9AF9DE16027C6C004C7EA8 /* UIKit.framework */; };
+		AC9AF9E116027C6C004C7EA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9AF9E016027C6C004C7EA8 /* Foundation.framework */; };
+		AC9AF9E316027C6C004C7EA8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9AF9E216027C6C004C7EA8 /* CoreGraphics.framework */; };
+		AC9AF9E916027C6C004C7EA8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC9AF9E716027C6C004C7EA8 /* InfoPlist.strings */; };
+		AC9AF9EB16027C6C004C7EA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9AF9EA16027C6C004C7EA8 /* main.m */; };
+		AC9AF9EF16027C6C004C7EA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9AF9EE16027C6C004C7EA8 /* AppDelegate.m */; };
+		AC9AF9F216027C6C004C7EA8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9AF9F116027C6C004C7EA8 /* ViewController.m */; };
+		AC9AF9F516027C6C004C7EA8 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC9AF9F316027C6C004C7EA8 /* ViewController.xib */; };
+		AC9AF9FD16027CAA004C7EA8 /* OverflowView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9AF9FC16027CAA004C7EA8 /* OverflowView.m */; };
+		AC9AFA0316027DE3004C7EA8 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = AC9AFA0016027DE3004C7EA8 /* 1.png */; };
+		AC9AFA0416027DE3004C7EA8 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = AC9AFA0116027DE3004C7EA8 /* 2.png */; };
+		AC9AFA0616028752004C7EA8 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = AC9AFA0516028752004C7EA8 /* 3.png */; };
+		AC9AFA0916028755004C7EA8 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = AC9AFA0716028755004C7EA8 /* 5.png */; };
+		AC9AFA0A16028755004C7EA8 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = AC9AFA0816028755004C7EA8 /* 4.png */; };
+		AC9AFA0C16028798004C7EA8 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = AC9AFA0B16028798004C7EA8 /* 6.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC9AF9DA16027C6C004C7EA8 /* santoUIImageScroller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = santoUIImageScroller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC9AF9DE16027C6C004C7EA8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AC9AF9E016027C6C004C7EA8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AC9AF9E216027C6C004C7EA8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AC9AF9E616027C6C004C7EA8 /* santoUIImageScroller-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "santoUIImageScroller-Info.plist"; sourceTree = "<group>"; };
+		AC9AF9E816027C6C004C7EA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC9AF9EA16027C6C004C7EA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC9AF9EC16027C6C004C7EA8 /* santoUIImageScroller-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "santoUIImageScroller-Prefix.pch"; sourceTree = "<group>"; };
+		AC9AF9ED16027C6C004C7EA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC9AF9EE16027C6C004C7EA8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AC9AF9F016027C6C004C7EA8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AC9AF9F116027C6C004C7EA8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AC9AF9F416027C6C004C7EA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		AC9AF9FB16027CAA004C7EA8 /* OverflowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverflowView.h; sourceTree = "<group>"; };
+		AC9AF9FC16027CAA004C7EA8 /* OverflowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverflowView.m; sourceTree = "<group>"; };
+		AC9AFA0016027DE3004C7EA8 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		AC9AFA0116027DE3004C7EA8 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		AC9AFA0516028752004C7EA8 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		AC9AFA0716028755004C7EA8 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		AC9AFA0816028755004C7EA8 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		AC9AFA0B16028798004C7EA8 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC9AF9D716027C6C004C7EA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9AF9DF16027C6C004C7EA8 /* UIKit.framework in Frameworks */,
+				AC9AF9E116027C6C004C7EA8 /* Foundation.framework in Frameworks */,
+				AC9AF9E316027C6C004C7EA8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC9AF9CF16027C6B004C7EA8 = {
+			isa = PBXGroup;
+			children = (
+				AC9AF9E416027C6C004C7EA8 /* santoUIImageScroller */,
+				AC9AF9DD16027C6C004C7EA8 /* Frameworks */,
+				AC9AF9DB16027C6C004C7EA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC9AF9DB16027C6C004C7EA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC9AF9DA16027C6C004C7EA8 /* santoUIImageScroller.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC9AF9DD16027C6C004C7EA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC9AF9DE16027C6C004C7EA8 /* UIKit.framework */,
+				AC9AF9E016027C6C004C7EA8 /* Foundation.framework */,
+				AC9AF9E216027C6C004C7EA8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC9AF9E416027C6C004C7EA8 /* santoUIImageScroller */ = {
+			isa = PBXGroup;
+			children = (
+				AC9AF9ED16027C6C004C7EA8 /* AppDelegate.h */,
+				AC9AF9EE16027C6C004C7EA8 /* AppDelegate.m */,
+				AC9AF9F016027C6C004C7EA8 /* ViewController.h */,
+				AC9AF9F116027C6C004C7EA8 /* ViewController.m */,
+				AC9AF9F316027C6C004C7EA8 /* ViewController.xib */,
+				AC9AF9FB16027CAA004C7EA8 /* OverflowView.h */,
+				AC9AF9FC16027CAA004C7EA8 /* OverflowView.m */,
+				AC9AF9E516027C6C004C7EA8 /* Supporting Files */,
+			);
+			path = santoUIImageScroller;
+			sourceTree = "<group>";
+		};
+		AC9AF9E516027C6C004C7EA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC9AF9FE16027D69004C7EA8 /* assets */,
+				AC9AF9E616027C6C004C7EA8 /* santoUIImageScroller-Info.plist */,
+				AC9AF9E716027C6C004C7EA8 /* InfoPlist.strings */,
+				AC9AF9EA16027C6C004C7EA8 /* main.m */,
+				AC9AF9EC16027C6C004C7EA8 /* santoUIImageScroller-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC9AF9FE16027D69004C7EA8 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				AC9AFA0016027DE3004C7EA8 /* 1.png */,
+				AC9AFA0516028752004C7EA8 /* 3.png */,
+				AC9AFA0716028755004C7EA8 /* 5.png */,
+				AC9AFA0B16028798004C7EA8 /* 6.png */,
+				AC9AFA0816028755004C7EA8 /* 4.png */,
+				AC9AFA0116027DE3004C7EA8 /* 2.png */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC9AF9D916027C6C004C7EA8 /* santoUIImageScroller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC9AF9F816027C6C004C7EA8 /* Build configuration list for PBXNativeTarget "santoUIImageScroller" */;
+			buildPhases = (
+				AC9AF9D616027C6C004C7EA8 /* Sources */,
+				AC9AF9D716027C6C004C7EA8 /* Frameworks */,
+				AC9AF9D816027C6C004C7EA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = santoUIImageScroller;
+			productName = santoUIImageScroller;
+			productReference = AC9AF9DA16027C6C004C7EA8 /* santoUIImageScroller.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC9AF9D116027C6B004C7EA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = AC9AF9D416027C6B004C7EA8 /* Build configuration list for PBXProject "santoUIImageScroller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AC9AF9CF16027C6B004C7EA8;
+			productRefGroup = AC9AF9DB16027C6C004C7EA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC9AF9D916027C6C004C7EA8 /* santoUIImageScroller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC9AF9D816027C6C004C7EA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9AF9E916027C6C004C7EA8 /* InfoPlist.strings in Resources */,
+				AC9AF9F516027C6C004C7EA8 /* ViewController.xib in Resources */,
+				AC9AFA0316027DE3004C7EA8 /* 1.png in Resources */,
+				AC9AFA0416027DE3004C7EA8 /* 2.png in Resources */,
+				AC9AFA0616028752004C7EA8 /* 3.png in Resources */,
+				AC9AFA0916028755004C7EA8 /* 5.png in Resources */,
+				AC9AFA0A16028755004C7EA8 /* 4.png in Resources */,
+				AC9AFA0C16028798004C7EA8 /* 6.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC9AF9D616027C6C004C7EA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9AF9EB16027C6C004C7EA8 /* main.m in Sources */,
+				AC9AF9EF16027C6C004C7EA8 /* AppDelegate.m in Sources */,
+				AC9AF9F216027C6C004C7EA8 /* ViewController.m in Sources */,
+				AC9AF9FD16027CAA004C7EA8 /* OverflowView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC9AF9E716027C6C004C7EA8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC9AF9E816027C6C004C7EA8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AC9AF9F316027C6C004C7EA8 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC9AF9F416027C6C004C7EA8 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC9AF9F616027C6C004C7EA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC9AF9F716027C6C004C7EA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC9AF9F916027C6C004C7EA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "santoUIImageScroller/santoUIImageScroller-Prefix.pch";
+				INFOPLIST_FILE = "santoUIImageScroller/santoUIImageScroller-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AC9AF9FA16027C6C004C7EA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "santoUIImageScroller/santoUIImageScroller-Prefix.pch";
+				INFOPLIST_FILE = "santoUIImageScroller/santoUIImageScroller-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC9AF9D416027C6B004C7EA8 /* Build configuration list for PBXProject "santoUIImageScroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9AF9F616027C6C004C7EA8 /* Debug */,
+				AC9AF9F716027C6C004C7EA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC9AF9F816027C6C004C7EA8 /* Build configuration list for PBXNativeTarget "santoUIImageScroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9AF9F916027C6C004C7EA8 /* Debug */,
+				AC9AF9FA16027C6C004C7EA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC9AF9D116027C6B004C7EA8 /* Project object */;
+}
